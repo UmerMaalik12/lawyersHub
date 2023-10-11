@@ -30,7 +30,7 @@ const Navbar = () => {
                 href='#'
                
               >
-                ABOUT
+                ABOUT us
                 <span className='absolute bottom-0 left-0 w-0 bg-black h-0.5 transition-all duration-300 ease-in-out group-hover:w-full'></span>
               </a>
             </li>
@@ -39,7 +39,7 @@ const Navbar = () => {
                 href='#'
                
               >
-                FAQ
+                Services
                 <span className='absolute bottom-0 left-0 w-0 bg-black h-0.5 transition-all duration-300 ease-in-out group-hover:w-full'></span>
               </a>
             </li>
