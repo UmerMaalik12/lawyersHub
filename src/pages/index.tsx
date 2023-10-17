@@ -2,6 +2,7 @@ import Navbar from "@/Components/navbar";
 import "tailwindcss/tailwind.css";
 import Slider from "@/Components/SliderWithButton";
 import Card from "@/Components/Card";
+import Sidebar from "@/Components/sidebar"
 export default function Home() {
   return (
     <>
@@ -23,6 +24,14 @@ export default function Home() {
             <Card></Card>
           </div>
         </div>
+        <div className="mt-5 flex flex-col">
+          <h1 className="font-normal font-playfair font-serif text-[50px] self-center ">How It Works!</h1>
+         
+         
+        
+        </div>
+        <Sidebar></Sidebar>
+        
       </div>
     </>
   );
