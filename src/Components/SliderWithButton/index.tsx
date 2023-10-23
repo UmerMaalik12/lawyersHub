@@ -5,7 +5,7 @@ import paperPlane from "@/Images/paperplane.png";
 const Slider = () => {
   return (
     <>
-      <div className="border-2 border-black h-auto">
+      <div className="h-auto">
         <div
           style={{ backgroundImage: `url(${hammer.src})` }}
           className="grid  grid-cols-2  h-96 bg-cover bg-center bg-no-repeat  flex"

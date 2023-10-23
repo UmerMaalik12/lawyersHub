@@ -21,8 +21,11 @@
   background-color:  #c0c0c0;
 } */
 body {
-  padding-left:30px;
-  padding-right:30px;
-  padding-top: 20px;
-  background-color:  #c0c0c0;
+  padding-left:30px !important;
+  padding-right:30px !important;
+  padding-top: 20px !important;
+  background-color:  #c0c0c0 !important;
+}
+.nav-link {
+  color: black !important;
 }
